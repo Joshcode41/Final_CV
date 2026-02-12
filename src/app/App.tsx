@@ -23,7 +23,7 @@ import { Button } from "./components/ui/button";
 import { Badge } from "./components/ui/badge";
 
 
-import cvImage from "../assets/cvImage.png";
+import cvImage from "../assets/Joshua_Owuonda_CV.pdf";
 import profileImage from "../assets/profileImage.png";
 
 // Project Images
@@ -91,7 +91,7 @@ export default function App() {
   const handleDownloadCV = () => {
     const link = document.createElement("a");
     link.href = cvImage;
-    link.download = "Joshua_Owuonda_CV.png";
+    link.download = "Joshua_Owuonda_CV.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -132,7 +132,7 @@ export default function App() {
               </motion.div>
               <div className="text-gray-700 space-y-3 mt-6">
                 <p>
-                  — Self-motivated IT undergraduate seeking an internship in Software or Web Development. Skilled in full-stack development,
+                  — Self-motivated software engineer seeking an internship in Software or Web Development. Skilled in full-stack development,
                   software design, and system implementation.
                 </p>
                 <p>
@@ -669,7 +669,7 @@ export default function App() {
             <div className="mb-8 bg-teal-600 p-4 rounded-lg">
               <h3 className="text-lg font-bold mb-2 text-center">Fun Fact:</h3>
               <p className="text-center text-sm">
-                I'm from Nairobi — but my code runs everywhere.
+                I treat coding like a puzzle, I don’t stop until every piece fits perfectly.
               </p>
             </div>
           </FadeInSection>
@@ -684,7 +684,7 @@ export default function App() {
               <div className="space-y-3 text-sm">
                 <div className="flex items-start gap-2">
                   <Mail className="w-4 h-4 mt-1 flex-shrink-0" />
-                  <span>joshuaonuonda1@gmail.com</span>
+                  <span>joshuaowuonda41@gmail.com</span>
                 </div>
                 <div className="flex items-start gap-2">
                   <Globe className="w-4 h-4 mt-1 flex-shrink-0" />
@@ -692,11 +692,11 @@ export default function App() {
                 </div>
                 <div className="flex items-start gap-2">
                   <Phone className="w-4 h-4 mt-1 flex-shrink-0" />
-                  <span>+254 769 735 216</span>
+                  <span>+254 799 732 318</span>
                 </div>
                 <div className="flex items-start gap-2">
                   <Github className="w-4 h-4 mt-1 flex-shrink-0" />
-                  <span>github.com/joshuaonuonda1</span>
+                  <span>github.com/Joshcode41</span>
                 </div>
               </div>
             </div>
@@ -714,7 +714,7 @@ export default function App() {
                   <p className="font-semibold">Bachelors in Business Information Technology</p>
                   <p className="text-teal-200 text-sm">Strathmore University</p>
                   <p className="text-teal-200 text-sm">Nairobi, Kenya</p>
-                  <p className="text-xs text-teal-300 mt-1">2023 - 2026</p>
+                  <p className="text-xs text-teal-300 mt-1">June 2023 - June 2027</p>
                 </div>
                 <div>
                   <p className="font-semibold">ALX - Software Engineering</p>
